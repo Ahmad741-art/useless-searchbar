@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#recipe-results, #recipe-details, #shopping-list {
+    margin-top: 20px;
+}
+
+.recipe-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.recipe-card img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.shopping-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.bought {
+    text-decoration: line-through;
+}
